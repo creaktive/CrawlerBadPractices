@@ -42,4 +42,9 @@ E L<DBD::SQLite> para gerenciá-las.
 Todos sabem que, quanto mais conexões, mais rápido o download!
 Comece com um número razoável, por exemplo 100.
 
+=item *
+
+Guarde todos os resultados crawleados na RAM.
+Grave-os no storage permanente somente no final da execução.
+
 =back
