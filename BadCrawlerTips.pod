@@ -68,4 +68,29 @@ Ignore F<robots.txt> e, especialmente, F<sitemap.xml>.
 Com certeza, você sabe parsear headers (inclusive cookies) muito melhor do que os idiotas que submeteram os respectivos módulos para o CPAN.
 Não perca tempo com essas dependências triviais.
 
+=item *
+
+Não esquente a cabeça com a condição de parada do crawler.
+Uma hora ou outra, essa bagaça tem que parar!
+
+=item *
+
+Considere a beleza inerente da solução recursiva.
+Por um instante, esqueça de que o Perl é, na sua essência, imperativo.
+
+=item *
+
+Preocupe-se com a beleza do código do seu crawler.
+Crawler bom é crawler I<clean>.
+Utilize o L<LWP::Simple>, ou, melhor ainda: implemente em Ruby.
+
+=item *
+
+Tenha em mente que L<Scrapy|http://scrapy.org/>, L<Nutch|http://nutch.apache.org/>, L<Methabot|http://sourceforge.net/projects/methabot/>, L<Heritrix|https://webarchive.jira.com/wiki/display/Heritrix/Heritrix> e afins são tudo uns lixos.
+Certamente, o seu crawler ficará muito melhor!
+
+=item *
+
+Siga todas essas dicas à risca, ou o seu crawler correrá o risco de ficar eficiente!
+
 =back
