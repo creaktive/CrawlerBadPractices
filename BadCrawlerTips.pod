@@ -49,4 +49,14 @@ Comece com um número razoável, por exemplo 100.
 Guarde todos os resultados crawleados na RAM.
 Grave-os no storage permanente somente no final da execução.
 
+=item *
+
+Sabe aquele negócio chato de C<site.com.br>/C<www.site.com.br>?
+Resolva com um simples C<s/^www\.//>!
+
+=item *
+
+Lembre-se: a única codificação que existe é ISO-5589-1.
+Se você se deparar com caracteres UTF-8, não hesite em usar C<s///g> para convertê-los na única codificação que é certa!
+
 =back
