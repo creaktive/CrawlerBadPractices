@@ -63,4 +63,9 @@ Se você se deparar com caracteres UTF-8, não hesite em usar C<s///g> para conv
 
 Ignore F<robots.txt> e, especialmente, F<sitemap.xml>.
 
+=item *
+
+Com certeza, você sabe parsear headers (inclusive cookies) muito melhor do que os idiotas que submeteram os respectivos módulos para o CPAN.
+Não perca tempo com essas dependências triviais.
+
 =back
