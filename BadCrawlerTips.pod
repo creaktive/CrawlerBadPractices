@@ -46,6 +46,11 @@ Comece com um número razoável, por exemplo 100.
 
 =item *
 
+Num sistema SMP, nada melhor do que I<threads> para distribuir as tarefas entre as CPUs.
+E, no Windows, I<ithreads> garantem a melhor escalabilidade para o seu crawler.
+
+=item *
+
 Guarde todos os resultados crawleados na RAM.
 Grave-os no storage permanente somente no final da execução.
 
