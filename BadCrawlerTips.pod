@@ -1,0 +1,45 @@
+=pod
+
+=encoding utf-8
+
+=over
+
+=item *
+
+Delegue a I<normalização> dos links ao método C<canonical()> do L<URI>.
+E daí que o C<path> pode ter coisas como C<../../../>, ou parâmetros da I<query> podem vir em ordens distintas?
+
+=item *
+
+Compile L<libcurl|http://curl.haxx.se/> com suporte a L<c-ares|http://c-ares.haxx.se/> sempre que o seu crawler for de tipo horizontal (pegar muitas páginas do mesmo servidor).
+
+=item *
+
+Distribua o seu crawler horizontal em maior número de nodes possível.
+
+=item *
+
+Sempre use L<WWW::Mechanize>.
+Jamais se importe com C<stack_depth>.
+
+=item *
+
+Use e abuse do L<HTML::TreeBuilder::XPath>.
+L<Web::Scraper::LibXML> é para os fracos!
+
+=item *
+
+Melhor ainda: L<processe HTML usando expressões regulares|http://stackoverflow.com/questions/1732348/regex-match-open-tags-except-xhtml-self-contained-tags/1732454#1732454>
+
+=item *
+
+Alcançando o nirvana: baixe os documentos usando C<wget -r -np> e os processe com expressões regulares!
+
+=item *
+
+Use L<fork> para criar conexões paralelas.
+E L<DBD::SQLite> para gerenciá-las.
+Todos sabem que, quanto mais conexões, mais rápido o download!
+Comece com um número razoável, por exemplo 100.
+
+=back
