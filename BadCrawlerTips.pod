@@ -51,6 +51,12 @@ E, no Windows, I<ithreads> garantem a melhor escalabilidade para o seu crawler.
 
 =item *
 
+Repudie L<eval>, L<Try::Tiny> e afins.
+É impossível o crawler gerar I<exception> ao percorrer sites alheios.
+Corolario: ignore a questão de I<retries>, afinal, tudo vai funcionar perfeitamente logo na primeira tentativa!
+
+=item *
+
 Guarde todos os resultados crawleados na RAM.
 Grave-os no storage permanente somente no final da execução.
 
