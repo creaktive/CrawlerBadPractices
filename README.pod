@@ -111,3 +111,31 @@ Certamente, o seu crawler ficará muito melhor!
 Siga todas essas dicas à risca, ou o seu crawler correrá o risco de ficar eficiente!
 
 =back
+
+=head2 Referências
+
+Ao fazer um crawler ineficiente, ignore a opinião dos seguintes elementos:
+
+=over
+
+=item *
+
+L<@creaktive|https://github.com/creaktive>
+
+=item *
+
+L<@fvox|https://github.com/fvox>
+
+=item *
+
+L<@jimmytty|https://github.com/jimmytty>
+
+=item *
+
+L<@mantovani|https://github.com/mantovani>
+
+=item *
+
+L<@renatocron|https://github.com/renatocron>
+
+=back
