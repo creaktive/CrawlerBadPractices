@@ -62,13 +62,19 @@ Grave-os no storage permanente somente no final da execução.
 
 =item *
 
+Nem sempre salve os dados obtidos.
+Mas, quando salvar, certifique-se de gerar um arquivo com instruções SQL, para carregar da forma mais segura possível na sua base de dados.
+Ou, melhor ainda, grave um XML (cuidado para não cair na armadilha de usar L<XML::Compile>!), empregando C<CDATA> para I<escape>.
+
+=item *
+
 Sabe aquele negócio chato de C<site.com.br>/C<www.site.com.br>?
 Resolva com um simples C<s/^www\.//>!
 
 =item *
 
 Lembre-se: a única codificação que existe é ISO-5589-1.
-Se você se deparar com caracteres UTF-8, não hesite em usar C<s///g> para convertê-los na única codificação que é certa!
+Se você se deparar com caracteres UTF-8, não hesite em usar C<s///g> para convertê-los na única codificação que é verdadeira!
 
 =item *
 
