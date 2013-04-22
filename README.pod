@@ -108,6 +108,14 @@ Certamente, o seu crawler ficará muito melhor!
 
 =item *
 
+Não use nenhum cache de dns, afinal o host pode mudar repentinamente e você não pode ficar fora dessa!
+
+=item *
+
+Ignore a abrangência do HTTP quanto a caches, Last-Modified e ETag são armadilhas, você não pode cair nessa!
+
+=item *
+
 Siga todas essas dicas à risca, ou o seu crawler correrá o risco de ficar eficiente!
 
 =back
