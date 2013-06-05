@@ -116,6 +116,10 @@ Ignore a abrangência do HTTP quanto a I<caches>; I<Last-Modified> e I<ETag> sã
 
 =item *
 
+Não perca tempo com firebug ou L<Jsfiddle|http://jsfiddle.net/>, debug on the fly é sempre uma delícia =)
+
+=item *
+
 Siga todas essas dicas à risca, ou o seu crawler correrá o risco de ficar eficiente!
 
 =back
