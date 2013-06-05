@@ -116,7 +116,7 @@ Ignore a abrangência do HTTP quanto a I<caches>; I<Last-Modified> e I<ETag> sã
 
 =item *
 
-Não perca tempo com firebug ou L<Jsfiddle|http://jsfiddle.net/>, debug on the fly é sempre uma delícia =)
+Não perca tempo com Firebug ou L<jsFiddle|http://jsfiddle.net/>, *debug on the fly* é sempre uma delícia =)
 
 =item *
 
